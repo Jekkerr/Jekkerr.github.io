@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <style>
+        nav {
+            color: rgb(201, 0, 228);
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="font-size: 0.5cm;">
+        <a href="index.html">Резюме</a>
+        <a href="page1.html">Таблица</a>
+        <a href="page2.html">Сенсей Гай</a>
+        <a>Формы</a>
+    </nav>
+
+    <section>
+
+        <form action="???">
+            <p>
+                <label for="user_email">Email</label>
+                <input id="user_email" type="text" placeholder="мыло@gmail.com">
+            </p>
+
+
+            <label for="user_password">Password</label>
+            <input id="user_password" type="password" placeholder="Пароль">
+
+            <p>
+                <label for="user_date">Date</label>
+                <input id="user_date" type="date">
+            </p>
+
+            <p>
+                <label for="user_color">Color</label>
+                <input id="user_color" type="color">
+            </p>
+
+
+
+            <p> <label>
+                    Самец
+                    <input type="radio" name="gander" value="male" checked>
+                </label>
+                <label>
+                    Самка
+                    <input type="radio" name="gander" value="female">
+                </label>
+            </p>
+
+
+
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="Хвостатые звери" value="Курама">
+                        Курама
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="Хвостатые звери" value="Шукаку">
+                        Шукаку
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="Хвостатые звери" value="Сон Гоку">
+                        Сон Гоку
+                    </label>
+                </li>
+
+            </ul>
+
+            <select name="eye">
+                <option>-----</option>
+                <option value="Шаринган">Шаринган</option>
+                <option value="Риннеган">Риннеган</option>
+                <option value="Бьякуган">Бьякуган</option>
+            </select>
+
+
+            <div>
+                <p>
+                    <textarea name="feedback" cols="40" rows="10"></textarea>
+                </p>
+
+            </div>
+
+
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form>
+
+    </section>
+
+
+
+</body>
+
+</html>
