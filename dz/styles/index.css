@@ -80,12 +80,12 @@ body {
 
 .weigh{
     margin: 0 auto;
-    width: 40%;
+    width: 571px;
    }
 
 .form2 {
     margin-top: 8px;
-    width: 571px;
+    width: 100%;
     height: 39px;
     display: block;
     background: #C4C4C4;
@@ -96,7 +96,7 @@ body {
 
 .form4 {
     margin-top: 8px;
-    width: 571px;
+    width: 100%;
     height: 183px;
     display: block;
     background: #C4C4C4;
