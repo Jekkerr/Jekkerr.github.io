@@ -6,7 +6,6 @@ body {
     margin: 0;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-
 }
 
 .nav {
@@ -31,7 +30,7 @@ body {
     background-image: url(../images/wind-turbines.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-
+    background-size: cover;
 }
 
 .title {
@@ -39,7 +38,6 @@ body {
     line-height: 72px;
     color: #353535;
     margin: 0;
-
 }
 
 .subtitle {
@@ -60,28 +58,20 @@ body {
     text-decoration: none;
     border: 2px solid #F13B02;
     border-radius: 8px;
-
-
 }
-
-
 
 .form {
     background-color: #474747;
-    background-position: top;
     padding-top: 16px;
     font-size: 16px;
     line-height: 21px;
-    text-align: left;
     color: #C4C4C4;
- 
-
 }
 
-.weigh{
+.weigh {
     margin: 0 auto;
     width: 571px;
-   }
+}
 
 .form2 {
     margin-top: 8px;
@@ -91,7 +81,6 @@ body {
     background: #C4C4C4;
     border: 2px solid #F13B02;
     border-radius: 8px;
-
 }
 
 .form4 {
@@ -103,12 +92,14 @@ body {
     border: 2px solid #F13B02;
     border-radius: 8px;
     resize: none;
-
 }
 
-
 .button {
-    margin-top: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #353535;
     margin-bottom: 32px;
     width: 128px;
     height: 39px;
@@ -117,18 +108,10 @@ body {
     border-radius: 8px
 }
 
-.button2 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    color: #353535;
-}
-
 .end {
     height: 30px;
     background-color: #000000;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 5px;
+    line-height: 30px;
 }
-
