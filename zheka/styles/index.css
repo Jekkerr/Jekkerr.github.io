@@ -1,24 +1,22 @@
-*,
-* ::before * ::after {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
-    width: 1070px;
-    margin: 0 auto;
     padding-top: 30px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
+.width {
+    width: 1070px;
+    margin: 0 auto;
 }
 
-.section {
-    width: 100%;
-    float: left;
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
 }
 
 .logo {
@@ -84,16 +82,17 @@ body {
 .button-color {
     background: #5454D4;
     margin-top: 50px;
+    vertical-align: bottom;
 }
 
-
-.counteiner2 {
-    margin: 0 auto;
+.counteiner {
     width: 50%;
-    display: block;
     float: left;
-    margin-top: 100px;
-    margin-bottom: 100px;
+}
+
+.section1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .text {
@@ -121,10 +120,11 @@ body {
     border-radius: 50%;
     background-color: #FFFFFF;
     margin-left: 40px;
+    vertical-align: bottom;
 }
 
 .logos {
-    margin: 0 auto;
+    padding: 0;
     list-style: none;
 }
 
@@ -134,22 +134,17 @@ body {
     text-align: center;
 }
 
-.counteiner3 {
-    margin: 0 auto;
-    width: 50%;
-    display: block;
-    float: left;
-    margin-top: 150px;
-    margin-bottom: 83px;
-}
 
 .text3 {
     font-size: 50px;
     line-height: 57px;
     color: #19191B;
     margin: 0;
-    margin-bottom: 30px;
-    margin-top: 122px;
+    padding-bottom: 30px;
+}
+
+.uchenik-otstup {
+    padding-top: 122px;
 }
 
 .learn-button {
@@ -161,48 +156,49 @@ body {
     margin-top: 30px;
 }
 
-.counteiner4 {
-    margin: 0 auto;
-    width: 50%;
-    display: block;
-    float: left;
-    margin-top: 83px;
+.section2 {
+    padding-top: 150px;
+    padding-bottom: 83px;
 }
 
 .img-ded {
     margin-left: 150px;
 }
 
-.text4 {
-    font-size: 50px;
-    line-height: 57px;
-    color: #19191B;
-    margin: 0;
-    margin-top: 178px;
-    margin-bottom: 30px;
+.ded-otstup {
+    padding-top: 178px;
 }
 
-.counteiner5 {
+.counteiner2 {
     margin: 0 auto;
     width: 33%;
     display: block;
     float: left;
-    margin-top: 138px;
+    padding-top: 138px;
+    padding-bottom: 185px;
     text-align: center;
-    margin-bottom: 40px;
+
 }
 
-.text5 {
+.img {
+    width: 151px;
+    height: 97px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text4 {
     display: inline-block;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
     color: #19191B;
     margin: 0;
-    margin-bottom: 34px;
+    padding-top: 14;
+    padding-bottom: 34px;
 }
 
-.text6 {
+.text5 {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     font-size: 16px;
