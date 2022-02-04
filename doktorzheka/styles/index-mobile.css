@@ -1,0 +1,303 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1285px) {
+    .container-1218 {
+        padding: 0 40px;
+    }
+
+    .counteiner {
+        margin-left: 40px;
+        background-position: left 200px top 40px, right 216px top 72px;
+    }
+
+    .container-1237 {
+        left: 50px;
+    }
+
+    .links-setup {
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Header */
+
+    .container-1218 {
+        max-width: 768px;
+        padding: 0 40px;
+    }
+
+    .header-bottom {
+        height: 70px;
+    }
+
+    .logo {
+        width: 129px;
+        height: 37px;
+    }
+
+
+    .link {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .log-button {
+        font-size: 10px;
+        line-height: 27px;
+        width: 105px;
+        height: 32px;
+        margin-left: 28px;
+    }
+
+    .link-item {
+        margin-left: 37px;
+    }
+
+    /* Main */
+
+    .hero {
+        max-width: 768px;
+    }
+
+    .counteiner {
+        margin-left: 37px;
+        background-image: url(../images/box.png);
+        background-size: 852px 589px;
+        background-position: left 85px top 63px;
+    }
+
+    .top-text {
+        font-size: 42px;
+        line-height: 48px;
+        margin: 18px 0;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .button-sing {
+        font-size: 14px;
+        line-height: 42px;
+        width: 161px;
+        height: 49px;
+        margin-top: 8px;
+        margin-bottom: 189px;
+    }
+
+    .container-1270 {
+        max-width: 675px;
+        padding-top: 27px;
+    }
+
+    .plans-head, .how-head, .social-head {
+        font-size: 42px;
+        line-height: 48px;
+        padding-bottom: 30px;
+    }
+
+    .plan {
+        width: 305px;
+    }
+
+    .plan-left {
+        background-size: 352px 303px;
+    }
+
+    .plan-right {
+        background-size: 352px 303px;
+    }
+
+    .plan-name {
+        font-size: 20px;
+        line-height: 27px;
+        margin: 24px 0 0 0;
+    }
+
+    .plan-price {
+        font-size: 24px;
+        line-height: 31px;
+        margin: 0 0 6px 0;
+    }
+
+    .button-f {
+        font-size: 8px;
+        line-height: 24px;
+        width: 106px;
+        height: 32px;
+        margin-bottom: 33px;
+    }
+
+    .text2 {
+        font-size: 14px;
+        line-height: 28px;
+        margin: 22px 0 87px 0;
+    }
+
+    .container-1237 {
+        max-width: 768px;
+        padding-bottom: 87px;
+        left: 0;
+    }
+
+    .flex-1 {
+        background-size: 229px 197px;
+        background-position: left -16px top -5px;
+    }
+
+    .img-1 {
+        width: 257px;
+        height: 310px;
+        margin-top: 14px;
+        margin-left: 53px;
+    }
+
+    .number {
+        width: 77px;
+        height: 98px;
+    }
+
+    .number-1 {
+        margin-left: 75px;
+        margin-top: 68px;
+    }
+
+    .h3-word {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .text3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .text-pos {
+        margin-top: 45px;
+        margin-left: 34px;
+    }
+
+    .flex-2 {
+        background-size: 979px 591px, 134px 132px, 254px 206px;
+        background-position: left top -150px, left 271px top 101px, left 495px top;
+    }
+
+    .text-pos2 {
+        margin-top: 340px;
+        margin-left: 383px;
+        padding-bottom: 35px;
+    }
+
+    .number-2 {
+        margin-left: 257px;
+        margin-top: 266px;
+    }
+
+    .flex-3 {
+        background-size: 155px 138px;
+        background-position: left 220px top 191px;
+        padding-bottom: 68px;
+    }
+
+    .img-3 {
+        margin-left: 54px;
+        width: 260px;
+        height: 329px;
+    }
+
+    .text-pos3 {
+        margin-top: 65px;
+        margin-left: 33px;
+    }
+
+    .number-3 {
+        margin-top: 76px;
+        margin-left: 55px;
+    }
+
+    .button-try {
+        font-size: 12px;
+        line-height: 43px;
+        width: 226px;
+        height: 49px;
+    }
+
+    .container-1440 {
+        max-width: 768px;
+        background-position: left 24px top 262px, left 507px top 773px;
+    }
+
+    .text4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .button-foll {
+        font-size: 16px;
+        line-height: 53px;
+        width: 320px;
+        height: 61px;
+        margin-top: 40px;
+        margin-bottom: 95px;
+    }
+
+    /* Footer */
+
+    .container-1381 {
+        max-width: 688px;
+        margin: 41px auto 32px auto;
+    }
+
+    .footer-logo {
+        width: 133px;
+        height: 39px;
+        margin-left: 62px;
+        margin-top: 54px;
+        margin-bottom: 50px;
+    }
+
+    .links-foot {
+        margin: 62px 91px 0 0;
+        padding: 0;
+    }
+
+    .flex-links {
+        padding-bottom: 3px;
+        margin-left: 62px;
+        margin-right: 32px;
+    }
+
+    .links-setup {
+        padding-bottom: 24px;
+    }
+
+    .last {
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .last-link {
+        margin: 30px 0 25px 62px;
+    }
+
+    .last-link:first-child {
+        margin-right: 36px;
+    }
+
+    .info {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.12em;
+        color: #000000;
+        margin: 0 0 27px 62px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
