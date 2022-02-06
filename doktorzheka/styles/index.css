@@ -1,12 +1,13 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    /* outline: solid 1px black; */
 }
 
 body {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     max-width: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -15,7 +16,7 @@ body {
     position: sticky;
     top: 0;
     background-color: #FFFFFF;
-    z-index: 1;
+    z-index: 2;
     margin: 0 auto;
 }
 
@@ -275,6 +276,7 @@ body {
     line-height: 56px;
     color: #EF8094;
     position: absolute;
+    z-index: 1;
 }
 
 .number-1 {
@@ -310,10 +312,9 @@ body {
 
 .flex-2 {
     display: flex;
-    background-image: url(../images/feature2-1.png), url(../images/feature2-2.png), url(../images/feature2-3.png);
+    background-image: url(../images/feature2-2.png), url(../images/feature2-3.png);
     background-repeat: no-repeat;
-    background-position: left top -184px, left 360px top 127px, left 585px top;
-    z-index: 2;
+    background-position: left 360px top 127px, left 623px top 10px;
 }
 
 .text-pos2 {
@@ -322,9 +323,17 @@ body {
     padding-bottom: 70px;
 }
 
+.img-2 {
+    margin: 0;
+    width: 1232px;
+    height: 744px;
+    position: absolute;
+    top: 225px;
+}
+
 .number-2 {
     margin-left: 355px;
-    margin-top: 334px;
+    margin-top: 334px
 }
 
 .flex-3 {
@@ -378,7 +387,11 @@ body {
 .flex-4 {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+}
+
+.five-px {
+    margin: 0 5px 0 5px;
 }
 
 .text4 {
