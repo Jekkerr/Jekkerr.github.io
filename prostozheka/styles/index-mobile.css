@@ -9,7 +9,7 @@
 
     .counteiner {
         margin-left: 40px;
-        background-position: left 200px top 40px, right 216px top 72px;
+        background-position: left 200px top 40px, left 837px top 72px;
     }
 
     .container-1237 {
@@ -21,12 +21,56 @@
     }
 }
 
-@media screen and (max-width: 992px) and (min-width: 576px) {
+@media screen and (max-width: 992px) {
+
+    .log-button {
+        margin-left: 20px;
+    }
+
+    .link-item {
+        margin-left: 30px;
+    }
+
+    .logo {
+        margin-left: -10px;
+        width: 160px;
+        height: 40px;
+    }
+
+    .counteiner {
+        margin-left: 30px;
+        background-position: left 150px top 110px, left 787px top 142px;
+    }
+
+    .container-1237 {
+        left: 5px;
+    }
+
+    .text-pos {
+        margin-left: 6px;
+        margin-right: 5px;
+    }
+
+    .text-pos2 {
+        margin-left: 460px;
+        margin-right: 5px;
+    }
+
+    .number-2 {
+        margin-left: 345px;
+    }
+
+    .text-pos3 {
+        margin-left: 45px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
 
     /* Header */
 
     .container-1218 {
-        max-width: 768px;
         padding: 0 40px;
     }
 
@@ -35,10 +79,10 @@
     }
 
     .logo {
+        margin-left: 0;
         width: 129px;
         height: 37px;
     }
-
 
     .link {
         font-size: 10px;
@@ -58,10 +102,6 @@
     }
 
     /* Main */
-
-    .hero {
-        max-width: 768px;
-    }
 
     .counteiner {
         margin-left: 37px;
@@ -91,7 +131,6 @@
     }
 
     .container-1270 {
-        max-width: 675px;
         padding-top: 27px;
     }
 
@@ -99,6 +138,11 @@
         font-size: 42px;
         line-height: 48px;
         padding-bottom: 30px;
+    }
+
+    .plans-row {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .plan {
@@ -133,6 +177,7 @@
         margin-bottom: 33px;
     }
 
+
     .text2 {
         font-size: 14px;
         line-height: 28px;
@@ -140,7 +185,6 @@
     }
 
     .container-1237 {
-        max-width: 768px;
         padding-bottom: 87px;
         left: 0;
     }
@@ -233,7 +277,6 @@
     }
 
     .container-1440 {
-        max-width: 768px;
         background-position: left 24px top 262px, left 507px top 773px;
     }
 
@@ -255,7 +298,7 @@
 
     .container-1381 {
         max-width: 688px;
-        margin: 41px auto 32px auto;
+        margin: 41px auto 41px auto;
     }
 
     .footer-logo {
