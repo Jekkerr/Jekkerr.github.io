@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1360px) {
+
+    .counteiner {
+        background-position: left 200px top 40px, left 837px top 72px;
+    }
+}
+
 @media screen and (max-width: 1285px) {
     .container-1218 {
         padding: 0 40px;
@@ -9,7 +16,6 @@
 
     .counteiner {
         margin-left: 40px;
-        background-position: left 200px top 40px, left 837px top 72px;
     }
 
     .container-1237 {
@@ -44,29 +50,33 @@
 
     .container-1237 {
         left: 5px;
-        margin-right: 15px;
     }
 
     .text-pos {
         margin-left: 6px;
+        margin-right: 15px;
     }
 
     .text-pos2 {
         margin-left: 460px;
+        margin-right: 15px;
     }
 
     .number-2 {
-        margin-left: 345px;
+        margin-left: 342px;
     }
 
     .text-pos3 {
         margin-left: 45px;
+        margin-right: 15px;
     }
 
     .flex-3 {
-        background-position: left 260px top 241px;;
+        background-position: left 260px top 241px;
+        ;
     }
 }
+
 
 @media screen and (max-width: 768px) and (min-width: 576px) {
 
@@ -123,6 +133,10 @@
         line-height: 15px;
     }
 
+    .text-size {
+        max-width: 363px;
+    }
+
     .button-sing {
         font-size: 14px;
         line-height: 42px;
@@ -148,15 +162,15 @@
     }
 
     .plan {
-        width: 305px;
+        max-width: 305px;
     }
 
     .plan-left {
-        background-size: 352px 303px;
+        background-size: 305px;
     }
 
     .plan-right {
-        background-size: 352px 303px;
+        background-size: 305px;
     }
 
     .plan-name {
@@ -226,6 +240,7 @@
     .text-pos {
         margin-top: 45px;
         margin-left: 34px;
+        max-width: 311px;
     }
 
     .flex-2 {
@@ -236,12 +251,14 @@
     .img-2 {
         width: 979px;
         height: 591px;
+        margin-top: -110px;
     }
 
     .text-pos2 {
         margin-top: 384px;
         margin-left: 397px;
         padding-bottom: 35px;
+        max-width: 325px;
     }
 
     .number-2 {
@@ -264,6 +281,7 @@
     .text-pos3 {
         margin-top: 65px;
         margin-left: 33px;
+        max-width: 360px;
     }
 
     .number-3 {
@@ -347,6 +365,7 @@
         letter-spacing: 0.12em;
         color: #000000;
         margin: 0 0 27px 62px;
+        max-width: 549px;
     }
 }
 
@@ -469,39 +488,244 @@
 
     /* Main */
 
+    .counteiner {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        background-image: url(../images/box.png);
+        background-size: 716px 478px;
+        background-position: center bottom -110px;
+    }
+
+    .top-text {
+        margin: 43px 15px 28px 43px;
+    }
+
+    .text {
+        margin: 0 15px 0 43px;
+    }
+
+    .button-sing {
+        margin: 34px 0 409px 38px;
+    }
+
+    .container-1270 {
+        padding-top: 104px;
+    }
+
+    .plans-head, .how-head {
+        padding-bottom: 77px;
+    }
+
+    .plans-row {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .plan {
+        max-width: 348px;
+    }
+
+    .plan-left {
+        background-size: 350px 210px;
+        margin: 0 13px 19px 14px;
+    }
+
+    .plan-right {
+        background-size: 350px 210px;
+        margin: 0 13px 15px 14px;
+    }
+
+    .plan-name {
+        font-size: 30px;
+        line-height: 41px;
+        margin: 27px 0 0 0;
+    }
+
+    .plan-price {
+        font-size: 44px;
+        line-height: 57px;
+        margin: 0 0 8px 0;
+    }
+
+    .button-f {
+        font-size: 14px;
+        line-height: 33px;
+        width: 179px;
+        height: 40px;
+        margin-bottom: 34px;
+    }
+
+    .text2 {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 44px 85px 15px;
+        text-align: center;
+    }
+
+    .container-1237 {
+        left: 0;
+        padding-bottom: 138px;
+    }
+
+    .flex-1 {
+        background-position: left -70px top;
+        margin-bottom: 47px;
+        flex-direction: column;
+    }
+
+    .number-1 {
+        margin-left: 45px;
+        margin-top: 101px;
+    }
+
+    .text-pos {
+        margin: 36px 10px 0 46px;
+    }
+
+    .img-1 {
+        margin-top: 14px;
+        margin-left: 24px;
+        width: 323px;
+        height: 390px;
+    }
+
+    .flex-2 {
+        background-image: url(../images/feature2-2.png);
+        background-position: left top 295px;
+    }
+
+    .text-pos2 {
+        margin: 502px 10px 0 51px;
+        padding-bottom: 70px;
+    }
+
+    .img-2 {
+        margin: 0;
+        width: 994px;
+        height: 600px;
+        margin-top: 0;
+        margin-left: -320px;
+    }
+
+    .number-2 {
+        margin-left: 38px;
+        margin-top: 100px
+    }
+
+    .flex-3 {
+        background-position: left 225px top 250px;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
+
+    .h3-word br {
+        display: block;
+    }
+
+    .img-3 {
+        margin-left: 18px;
+        width: 328px;
+        height: 415px;
+    }
+
+    .text-pos3 {
+        margin-top: 37px;
+        margin-left: 52px;
+    }
+
+    .number-3 {
+        margin-top: 94px;
+        margin-left: 18px;
+    }
+
+    .container-1440 {
+        padding-top: 56px;
+        background-position: left 200px top 1300px, left 38px top 921px;
+    }
+
+    .social-head {
+        padding-bottom: 23px;
+    }
+
+    .five-px {
+        margin: 0 5px 49px 5px;
+    }
+
+    .text4 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .button-foll {
+        width: 312px;
+        margin-top: 29px;
+        margin-bottom: 110px;
+    }
 
     /* Footer */
 
+    .container-1381 {
+        max-width: 348px;
+        margin: 17px auto 19px auto;
+    }
+
+    .footer-logo {
+        width: 133px;
+        height: 38px;
+        margin: 41px 0 36px 34px;
+    }
+
+    .links-foot {
+        display: none;
+    }
+
     .flex-links {
         padding-bottom: 3px;
-        margin-left: 62px;
-        margin-right: 32px;
+        margin-left: 34px;
+        margin-right: 7px;
     }
 
     .links-setup {
-        padding-bottom: 24px;
+        width: 150px;
+        padding-bottom: 41px;
+    }
+
+    .text-h4 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .links-bot {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .link-bot-item {
+        gap: 5px;
     }
 
     .last {
-        justify-content: flex-start;
+        flex-direction: column;
         padding: 0;
     }
 
     .last-link {
-        margin: 30px 0 25px 62px;
+        margin: 21px 0 0 34px;
     }
 
-    .last-link:first-child {
-        margin-right: 36px;
+    .last-link:last-child {
+        margin-top: 10px;
     }
 
     .info {
         display: inline-block;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
         letter-spacing: 0.12em;
         color: #000000;
-        margin: 0 0 27px 62px;
+        font-size: 11px;
+        line-height: 14px;
+        margin: 15px 40px 27px 34px;
     }
+
 }

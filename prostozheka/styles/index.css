@@ -111,7 +111,7 @@ body {
     margin-left: 111px;
     background-image: url(../images/box.png), url(../images/box-marker.png);
     background-repeat: no-repeat;
-    background-position: left 300px top 40px, left 947px top 72px;
+    background-position: right -63px top 40px, right 104px top 72px;
     z-index: 2;
     max-width: 100%;
     overflow-x: hidden;
@@ -123,6 +123,10 @@ body {
     letter-spacing: 0.01em;
     color: #000000;
     display: inline-block;
+}
+
+.text-size {
+    max-width: 470px;
 }
 
 .top-text {
@@ -196,11 +200,13 @@ body {
 .plan-left {
     background-image: url(../images/plan-1.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .plan-right {
     background-image: url(../images/plan-2.png);
     background-repeat: no-repeat;
+    background-position: center;
     margin-left: 10px;
 }
 
@@ -238,13 +244,6 @@ body {
     margin-bottom: 53px;
 }
 
-.container-2 {
-    max-width: 1440px;
-    margin: 0 auto;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 .text2 {
     font-size: 18px;
     line-height: 23px;
@@ -252,6 +251,13 @@ body {
     text-align: center;
     color: #000000;
     margin: 43px 0 130px 0;
+}
+
+.container-2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .how-head::after {
@@ -301,6 +307,10 @@ body {
     margin: 0;
 }
 
+.h3-word br {
+    display: none;
+}
+
 .text3 {
     font-size: 18px;
     line-height: 23px;
@@ -311,6 +321,7 @@ body {
 .text-pos {
     margin-top: 65px;
     margin-left: 46px;
+    max-width: 391px;
 }
 
 .img-1 {
@@ -329,6 +340,7 @@ body {
     margin-top: 404px;
     margin-left: 502px;
     padding-bottom: 70px;
+    max-width: 409px;
 }
 
 .img-2 {
@@ -336,7 +348,7 @@ body {
     width: 1232px;
     height: 744px;
     position: absolute;
-    top: 225px;
+    margin-top: -185px;
 }
 
 .number-2 {
@@ -359,6 +371,7 @@ body {
 .text-pos3 {
     margin-top: 65px;
     margin-left: 46px;
+    max-width: 360px;
 }
 
 .number-3 {
