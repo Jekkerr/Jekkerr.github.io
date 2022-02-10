@@ -324,9 +324,7 @@
     .footer-logo {
         width: 133px;
         height: 39px;
-        margin-left: 62px;
-        margin-top: 54px;
-        margin-bottom: 50px;
+        margin: 54px 0 50px 62px;
     }
 
     .links-foot {
@@ -489,8 +487,6 @@
     /* Main */
 
     .counteiner {
-        display: flex;
-        flex-direction: column;
         margin-left: 0;
         background-image: url(../images/box.png);
         background-size: 716px 478px;
@@ -559,17 +555,18 @@
     .text2 {
         font-size: 14px;
         line-height: 18px;
-        margin: 0 44px 85px 15px;
-        text-align: center;
+        margin: 0 15px 85px 15px;
+        text-align: justify;
     }
 
     .container-1237 {
-        left: 0;
+        left: unset;
         padding-bottom: 138px;
+        margin-left: 25px;
     }
 
     .flex-1 {
-        background-position: left -70px top;
+        background-position: left -40px top;
         margin-bottom: 47px;
         flex-direction: column;
     }
@@ -619,10 +616,6 @@
         flex-direction: column;
     }
 
-    .h3-word br {
-        display: block;
-    }
-
     .img-3 {
         margin-left: 18px;
         width: 328px;
@@ -637,6 +630,10 @@
     .number-3 {
         margin-top: 94px;
         margin-left: 18px;
+    }
+
+    .button-try {
+        margin-left: -25px;
     }
 
     .container-1440 {
@@ -683,11 +680,10 @@
     .flex-links {
         padding-bottom: 3px;
         margin-left: 34px;
-        margin-right: 7px;
     }
 
     .links-setup {
-        width: 150px;
+        width: 153px;
         padding-bottom: 41px;
     }
 
@@ -727,5 +723,39 @@
         line-height: 14px;
         margin: 15px 40px 27px 34px;
     }
+}
 
+@media screen and (max-width: 475px) {
+    .container-1237 {
+        margin-left: 0;
+    }
+
+    .flex-1 {
+        background-position: left -70px top;
+    }
+
+    .h3-word br {
+        display: block;
+    }
+
+    .button-try {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 367px) {
+
+    .container-1270, .container-1440 {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .text4 {
+        text-align: center;
+    }
+
+    .plans-head, .how-head, .social-head {
+        font-size: 40px;
+        line-height: 46px;
+    }
 }
