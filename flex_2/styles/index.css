@@ -107,7 +107,7 @@ a:hover {
     white-space: nowrap;
     background: #FF6336;
     border-radius: 0px;
-    padding: 2px 23px;
+    padding: 2.5px 23px;
     margin-left: 10px;
     margin-right: 51px;
 }
@@ -124,6 +124,7 @@ a:hover {
     background-position: left 614px top 151px;
     background-size: 759px;
     overflow-x: hidden;
+    padding: 0 75px 0 75px;
 }
 
 .hero-title {
@@ -131,14 +132,14 @@ a:hover {
     font-size: 65px;
     line-height: 70px;
     width: 552px;
-    margin: 129px 813px 51px 75px;
+    margin: 129px 0 51px 0;
 }
 
 .hero-text {
     font-size: 25px;
     line-height: 35px;
     width: 471px;
-    margin: 0 894px 51px 75px;
+    margin: 0 0 51px 0;
 }
 
 .hero-try-btn {
@@ -151,8 +152,8 @@ a:hover {
     color: #FFFFFF;
     background: #FF6336;
     border-radius: 0px;
-    padding: 2px 41px;
-    margin: 0 0 0 75px;
+    padding: 2px 43px;
+    margin: 0;
 }
 
 .hero-book-btn {
@@ -172,7 +173,7 @@ a:hover {
 .hero-bot-text {
     font-size: 15px;
     line-height: 25px;
-    margin: 25px 0 172px 75px;
+    margin: 25px 0 172px 0;
 }
 
 /* Title animate */
@@ -212,12 +213,12 @@ a:hover {
 /* Companies */
 .companies {
     background-color: #FF9C7D;
-    padding-top: 108px;
+    padding: 108px 95px 104px 95px;
 }
 
 .companies-title {
     text-align: center;
-    width: 720px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 82px;
 }
@@ -225,31 +226,25 @@ a:hover {
 .companies-logos {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 95px;
-    margin-right: 95px;
-    padding-bottom: 104px;
+    justify-content: space-evenly;
 }
 
 /* About */
 .about {
     display: flex;
     flex-direction: column;
+    padding: 90px 75px 150px 75px;
 }
 
 .about-cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 250px 75px 0 75px;
+    margin-top: 250px;
 }
 
 .about-cards:first-child {
-    margin-top: 90px;
-}
-
-.about-cards:last-child {
-    margin-bottom: 150px;
+    margin-top: 0;
 }
 
 .about-text {
@@ -261,6 +256,7 @@ a:hover {
 }
 
 .about-link {
+    display: flex;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -269,7 +265,7 @@ a:hover {
 }
 
 .about-img {
-    width: 100%;
+    width: 80%;
     margin-left: 130px;
 }
 
@@ -281,13 +277,12 @@ a:hover {
 /* Localize */
 .localize-bg {
     background-color: #FFF8E4;
-    padding-bottom: 147px;
+    padding: 120px 0 147px 0;
 }
 
 .localize-title {
     text-align: center;
     margin: 0;
-    padding-top: 120px;
 }
 
 .localize-wrap {
@@ -346,7 +341,7 @@ a:hover {
     width: 179px;
 }
 
-.team-wrap {
+.team-cards-wrap {
     display: flex;
     justify-content: space-between;
     padding: 0 75px 187px 45px;
@@ -466,6 +461,7 @@ a:hover {
 
 .reviews-stars {
     margin-top: 15px;
+    height: 20px;
 }
 
 .reviews-text {
@@ -478,7 +474,24 @@ a:hover {
 }
 
 .reviews-g2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-right: 70px;
+}
+
+.reviews-capterra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.img-g2 {
+    width: 36px;
+}
+
+.img-capterra {
+    height: 37px;
 }
 
 /* Integrate */

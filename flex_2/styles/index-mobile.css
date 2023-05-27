@@ -2,4 +2,658 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1250px) {}
+
+@media screen and (max-width: 1260px) {
+    .hero-wrap {
+        background-position: left 550px top 150px;
+    }
+
+    .footer-wrap {
+        padding: 92px 35px 95px 25px;
+    }
+
+    .footer-link-wrap {
+        margin-left: 15px;
+    }
+
+    .rights-wrap {
+        padding: 52px 50px 43px 25px;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+
+    /* Header */
+    .head-logo {
+        margin: 36px 0 33px 0;
+    }
+
+    .hero-wrap {
+        padding: 0 75px 0 45px;
+    }
+
+    .nav-link-item {
+        margin-left: 20px;
+    }
+
+    .try-btn {
+        margin-left: 0;
+    }
+
+    /* Companies */
+    .companies {
+        padding: 108px 20px 104px 25px;
+    }
+
+    .companies-logos {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* About */
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 90px 20px 150px 25px;
+    }
+
+    .about-cards {
+        margin-top: 50px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-cards:first-child {
+        margin-top: 50px;
+    }
+
+    .about-cards:nth-child(2n+1) {
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .about-text, .title-text {
+        text-align: center;
+    }
+
+    .about-img {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .about-img:nth-child(2n+1) {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .about-link {
+        justify-content: center;
+    }
+
+    /* Localize */
+    .localize-title {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .localize-cards {
+        margin: 75px 40px 0 30px;
+    }
+
+    /* Team  */
+    .team-title {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .team-img-wrap {
+        padding: 0 35px 0 85px;
+    }
+
+    .img-size {
+        margin-left: 15px;
+    }
+
+    .team-cards-wrap {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 35px 187px 25px;
+    }
+
+    .team-cards {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    /* Revolut */
+    .revolut-wrap {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    /* Reviews */
+    .reviews-wrap {
+        padding-left: 25px;
+        padding-right: 110px;
+    }
+
+    .reviews-title {
+        margin-left: 37px;
+        margin-right: 10px;
+    }
+
+    .reviews-g2 {
+        margin-right: 40px;
+    }
+
+    /* Footer */
+    .footer-img {
+        width: 265px;
+    }
+
+    .footer-right {
+        flex-wrap: wrap;
+    }
+
+    .footer-link-wrap {
+        padding-bottom: 25px;
+        width: 165px;
+    }
+
+}
+
+
+@media screen and (max-width: 930px) {
+
+    /* Header */
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .head-logo {
+        margin-top: 26px;
+        margin-bottom: 23px;
+    }
+
+    .nav {
+        margin: 0 auto;
+    }
+
+    .nav-link-item {
+        margin-left: 45px;
+    }
+
+    .nav-btn {
+        margin: 0 auto;
+    }
+
+    .try-btn {
+        margin-right: 0;
+    }
+
+    .hero-wrap {
+        background-position: left 520px top 150px;
+    }
+
+    /* Reviews */
+    .reviews-right {
+        flex-direction: column;
+        align-items: stretch;
+        padding-left: 51px;
+    }
+
+    .reviews-g2 {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    /* Integrate */
+    .integrate-wrap {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .integrate-title {
+        width: 85%;
+        padding: 0 30px 0 30px;
+    }
+
+    .integrate-text {
+        width: 70%;
+    }
+
+    /* Try it */
+    .try-it-bg {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .try-it-title {
+        width: 85%;
+        padding: 0 30px 0 30px;
+    }
+
+    .try-it-text {
+        width: 70%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    .head-logo {
+        margin-left: 25px;
+    }
+
+    .nav {
+        margin-left: 10px;
+    }
+
+    .nav-links, .nav-btn {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .mobile-nav-btn {
+        border: none;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /* Hero */
+    .hero-wrap {
+        background-image: none;
+    }
+
+    .hero-title {
+        font-size: 45px;
+        margin: 50px 0 40px 0;
+    }
+
+    .hero-text {
+        font-size: 20px;
+    }
+
+    .hero-bot-text {
+        margin: 25px 0 70px 0;
+    }
+
+    /* Companies */
+    .companies {
+        padding: 65px 95px 65px 95px;
+    }
+
+    .title-text {
+        font-size: 40px;
+        margin-bottom: 65px;
+    }
+
+    /* About */
+    .about {
+        padding: 10px 75px 60px 75px;
+    }
+
+    /* Localize */
+    .localize-bg {
+        background-color: #FFF8E4;
+        padding: 50px 0 80px 0;
+    }
+
+    .localize-title {
+        margin: 0 15px 0 15px;
+    }
+
+    .localize-cards {
+        margin: 55px 40px 0 30px;
+    }
+
+    /* Team  */
+    .team-title {
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 72px;
+    }
+
+    .team-img-wrap {
+        padding: 0 35px 0 40px;
+    }
+
+    .team-cards-wrap {
+        padding-bottom: 60px;
+    }
+
+    .team-cards {
+        width: 85%;
+    }
+
+    .team-card-title {
+        margin-top: 29px;
+    }
+
+    /* Revolut */
+    .revolut-bg {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .revolut-wrap {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .revolut-man-img {
+        margin: 0 auto;
+        width: 55%;
+        height: 55%;
+    }
+
+    .revolut-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .revolut-down-text {
+        text-align: center;
+    }
+
+    .revolut-img {
+        display: block;
+        margin: 0 auto;
+        width: 90px;
+    }
+
+    /* Reviews */
+    .reviews-bg {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .reviews-wrap {
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .reviews-left {
+        margin-bottom: 15px;
+    }
+
+    .reviews-right {
+        flex-direction: row;
+        justify-content: space-around;
+        border-left: none;
+        border-top: 1px solid #000000;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .reviews-g2 {
+        margin-right: 0;
+    }
+
+    /* Integrate */
+    .integrate-wrap {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .integrate-title {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .integrate-text {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    /* Try it */
+    .try-it-bg {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .try-it-title {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .try-it-text {
+        margin: 19px 0 34px 0;
+    }
+
+    /* Footer */
+    .footer-wrap {
+        flex-direction: column;
+        padding: 40px 35px 40px 25px;
+    }
+
+    .footer-left {
+        align-items: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-link-read {
+        margin-bottom: 25px;
+    }
+
+    .rights-text {
+        text-align: center;
+    }
+
+    .rights-text-left {
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    /* Hero */
+    .hero-wrap {
+        padding: 0 20px 0 20px;
+        align-items: center;
+    }
+
+    .hero-title {
+        text-align: center;
+        width: 100%;
+        margin: 30px 0 30px 0;
+    }
+
+    .hero-text {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .hero-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-try-btn {
+        font-size: 18px;
+    }
+
+    .hero-book-btn {
+        margin-top: 7px;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .hero-bot-text {
+        text-align: center;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    /* Companies */
+    .companies {
+        padding: 60px 20px 60px 20px;
+    }
+
+    .title-text {
+        margin-bottom: 5px;
+    }
+
+    .companies-title {
+        margin-bottom: 30px;
+    }
+
+    /* About */
+    .about {
+        padding: 10px 20px 60px 20px;
+    }
+
+    .about-img {
+        width: 90%;
+    }
+
+    /* Localize */
+    .localize-bg {
+        padding: 30px 0 30px 0;
+    }
+
+
+    .localize-cards {
+        margin: 45px 30px 0 30px;
+    }
+
+    /* Team  */
+    .team-title {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .team-img-wrap {
+        display: none;
+    }
+
+    .team-cards-wrap {
+        padding: 0 25px 40px 25px;
+    }
+
+    .team-cards {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .team-text {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    /* Revolut */
+    .revolut-bg {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .revolut-man-img {
+        width: 70%;
+        height: 70%;
+    }
+
+    /* Reviews */
+    .reviews-bg {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .reviews-title {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .reviews-left {
+        flex-direction: column-reverse;
+    }
+
+    .reviews-right {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0 auto;
+    }
+
+    /* Integrate */
+    .integrate-wrap {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .integrate-title {
+        font-size: 35px;
+    }
+
+    .integrate-text {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    /* Try it */
+    .try-it-bg {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .try-it-title {
+        font-size: 35px;
+    }
+
+    .try-it-text {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    /* Rights */
+    .rights-wrap {
+        padding: 30px 35px 30px 25px;
+        align-items: center;
+    }
+
+    .rights-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .rights-text-left {
+        width: 60%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 440px) {
+
+    .footer-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link-wrap {
+        margin-left: 0;
+    }
+
+    .footer-link-title {
+        text-align: center;
+    }
+
+    .footer-link-item {
+        text-align: center;
+    }
+
+}
