@@ -46,8 +46,12 @@ a:hover {
     margin: 36px 0 33px 51px;
 }
 
-.line {
+.header-wrap {
     border-bottom: 1px solid #EFEFEF;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #FFFFFF;
 }
 
 

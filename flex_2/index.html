@@ -19,7 +19,7 @@
 
     <!-- Header -->
 
-    <header class="line">
+    <header class="header-wrap">
 
         <div class="header container">
             <!-- Navigation -->
@@ -41,11 +41,25 @@
             </div>
 
             <!-- Mobile Navigation -->
-            <nav class="mobile-nav">
-                <button class="mobile-nav-btn">
-                    <img src="images/hamburger.svg" alt="This is a mobile navigation ">
-                </button>
-            </nav>
+            <div class="mobile-nav">
+                <img class="head-logo-mob" src="images/logo.svg" alt="This is a logo">
+                <div id="myLinks">
+                    <a class="mobile-nav-link" href="#">Product</a>
+                    <a class="mobile-nav-link" href="#">Features</a>
+                    <a class="mobile-nav-link" href="#">Pricing</a>
+                    <a class="mobile-nav-link" href="#">Case studies</a>
+                    <a class="mobile-nav-link" href="#">Resources</a>
+
+                    <div class="mobile-nav-btn">
+                        <a class="log-btn" href="#">Log in</a>
+                        <a class="try-btn" href="#">Try it free</a>
+                    </div>
+
+                </div>
+                <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                    <img src="./images/hamburger.svg" alt="This is a mobile navigation">
+                </a>
+            </div>
         </div>
 
     </header>
@@ -393,6 +407,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/script.js"></script>
 
 </body>
 
