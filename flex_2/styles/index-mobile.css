@@ -444,6 +444,7 @@
     .integrate-title {
         font-size: 50px;
         width: 100%;
+        line-height: 50px;
     }
 
     .integrate-text {
@@ -453,13 +454,14 @@
 
     /* Try it */
     .try-it-bg {
-        padding-top: 70px;
+        padding-top: 60px;
         padding-bottom: 70px;
     }
 
     .try-it-title {
         width: 100%;
         font-size: 50px;
+        line-height: 50px;
     }
 
     .try-it-text {
